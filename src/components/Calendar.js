@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Calendar.css';
+import Header from './Header';
+import Day from './Day';
 
 class Calendar extends Component {
   render() {
     return (
       <div>
+        <Header />
+        <Day />
       </div>
     );
   }
